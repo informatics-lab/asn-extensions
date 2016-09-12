@@ -1,4 +1,4 @@
-FROM quay.io/informaticslab/asn-scala
+FROM quay.io/informaticslab/sharppy
 
 # NB Extensions
 RUN conda install -y -c conda-forge jupyter_contrib_nbextensions 
