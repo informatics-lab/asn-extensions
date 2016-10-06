@@ -1,6 +1,6 @@
 #ipython_notebook img{
     display:block;
-    background: url(../custom/logo.png) no-repeat;
+    background: url(custom/logo.png) no-repeat;
     background-size: contain;
     width: 233px;
     height: 33px;
