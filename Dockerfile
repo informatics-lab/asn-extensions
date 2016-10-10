@@ -1,7 +1,7 @@
 FROM quay.io/informaticslab/asn-sharppy
 
 # Install latex tools to allow export to PDF
-RUN apt-get update -q
+RUN apt-get update -qy --fix-missing
 RUN apt-get -qy install texlive-latex-extra texlive-fonts-recommended
 RUN apt-get -qy clean
 
