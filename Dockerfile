@@ -1,4 +1,4 @@
-FROM quay.io/informaticslab/asn-sharppy
+FROM quay.io/informaticslab/asn-notebook
 
 # NB Extensions
 RUN conda install -y -c conda-forge jupyter_contrib_nbextensions jupyter_dashboards nbpresent
